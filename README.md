@@ -2,12 +2,12 @@
 
 ## Syntahtic Dataset
 
+![large_simplified_ckd_stage_distribution](https://github.com/user-attachments/assets/b03bedd8-735f-4822-be34-b7b37d93988b)
+
 ## Feature Selection & Engineering 
 
-#stage 2
-print(predict_kidney_stage(50, 70, 170, 100, 30, 20, 80))
-#stage 5
-print(predict_kidney_stage(10, 10, 140, 100, 40, 20, 10))
+
+
 
 ## Model Training
 

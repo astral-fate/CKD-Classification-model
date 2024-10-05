@@ -128,8 +128,3 @@ The Random Forest model shows balanced performance between the two classes, indi
 
 
 
-
-## Contributing
-
-[Instructions for how to contribute to the project]
-

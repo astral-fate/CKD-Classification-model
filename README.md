@@ -4,7 +4,7 @@
 
 # Project overview
 
-KidneyGaurd is an AI-powered remote self-monitoring solution for kidney health management, utilizing IoT and AI integration.
+KidneyGaurd is an AI-powered remote self-monitoring solution for kidney health management, utilizing IoT and AI integration. Full presentation of the project can be shown here [[PPT]](https://www.canva.com/design/DAGSnzCsKsw/umnO-dffEIVahDIzuDNM3g/edit?utm_content=DAGSnzCsKsw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 # Problem
 

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Kidney Disease Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="content">
+        <header>
+            <h1>Your Kidney Disease Prediction Result</h1>
+        </header>
+        <div id="sidebar" class="sidebar">
+            <button id="close-btn" class="close-btn">&times;</button>
+            <ul>
+                <li><a href="{{ url_for('profile') }}">Profile</a></li>
+                <li><a href="{{ url_for('dashboard') }}">Dashboard</a></li>
+                <li><a href="{{ url_for('dietplan') }}">Diet Plan</a></li>
+            </ul>
+        </div>
+        <button id="menu-btn" class="menu-btn">&#9776;</button>
+        <div>
+            <h2>Prediction Result</h2>
+            <p>Kidney Disease Stage: <span id="prediction-result">{{ prediction }}</span></p>
+            <div class="info-box">
+                <h3>What does this mean?</h3>
+                <p>This prediction is based on the information you provided:</p>
+                <ul>
+                    <li>Age: {{ age }}</li>
+                    <li>Blood Glucose Random: {{ bgr }}</li>
+                    <li>Blood Urea: {{ bu }}</li>
+                    <li>Serum Creatinine: {{ sc }}</li>
+                </ul>
+                <p>Remember, this is a preliminary assessment. Please consult with a healthcare professional for a comprehensive evaluation and personalized advice.</p>
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
